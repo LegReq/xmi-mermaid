@@ -1,0 +1,15 @@
+{
+  "name": "mermaid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Andrieu <joe@andrieu.net> (http://joeandrieu.com/)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "fast-xml-parser": "^4.0.6",
+    "xml-js": "^1.6.11"
+  }
+}

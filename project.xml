@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Author="Joe" CommentTableSortAscending="false" CommentTableSortColumn="Date Time" Description="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 14px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;" DocumentationType="html" ExportedFromDifferentName="false" ExporterVersion="16.1.1" Name="did-earth" TextualAnalysisHighlightOptionCaseSensitive="false" UmlVersion="2.x" Xml_structure="simple">
+	<ProjectInfo>
+		<LogicalView/>
+		<ProjectOptions>
+			<DiagramOptions ActivityDiagramControlFlowDisplayOption="\u0000" ActivityDiagramShowActionCallBehaviorOption="\u0000" ActivityDiagramShowActivityEdgeWeight="true" ActivityDiagramShowDiagramFrame="false" ActivityDiagramShowObjectNodeType="true" ActivityDiagramShowPartitionHandle="\u0000" AddDataStoresExtEntitiesToDecomposedDFD="\u0002" AlignColumnProperties="true" AllowConfigShowInOutFlowButtonsInDataFlowDiagram="false" AutoGenerateRoleName="false" AutoSetAttributeType="true" AutoSetColumnType="true" AutoSyncRoleName="true" BlockDefinitionDiagramShowDiagramFrame="false" BpPoolLaneDefaultOrientation="\u0000" BpdAutoStretchPools="true" BpdConnectGatewayWithFlowObjectInDifferentPool="\u0000" BpdDefaultConnectionPointStyle="\u0001" BpdDefaultConnectorStyle="\u0005" BpdDhowIdOption="\u0000" BpdShowActivitiesTypeIcon="true" BusinessProcessDiagramDefaultLanguage="English" ClassVisibilityStyle="\u0001" ConnectorLabelOrientation="\u0000" CreateOneMessagePerDirection="true" DecisionMergeNodeConnectionPointStyle="\u0000" DefaultAssociationEndNavigable="\u0001" DefaultAssociationEndVisibility="\u0000" DefaultAssociationShowFromMultiplicity="true" DefaultAssociationShowFromRoleName="true" DefaultAssociationShowFromRoleVisibility="true" DefaultAssociationShowStereotypes="true" DefaultAssociationShowToMultiplicity="true" DefaultAssociationShowToRoleName="true" DefaultAssociationShowToRoleVisibility="true" DefaultAttributeMultiplicity="false" DefaultAttributeType="" DefaultAttributeVisibility="\u0001" DefaultClassAttributeMultiplicity="" DefaultClassAttributeMultiplicityOrdered="false" DefaultClassAttributeMultiplicityUnique="true" DefaultClassInterfaceBall="false" DefaultClassVisibility="\u0004" DefaultColumnType="integer(10)" DefaultConnectionPointStyle="\u0000" DefaultConnectorStyle="\u0001" DefaultDiagramBackground="rgb(255, 255, 255)" DefaultDisplayAsRobustnessAnalysisIcon="true" DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram="true" DefaultDisplayAsStereotypeIcon="false" DefaultFontColor="rgb(0, 0, 0)" DefaultGenDiagramTypeFromScenario="\u0000" DefaultHtmlDocFontColor="rgb(0, 0, 0)" DefaultLineJumps="\u0000" DefaultOperationVisibility="\u0004" DefaultParameterDirection="\u0002" DefaultShowAttributeInitialValue="true" DefaultShowAttributeOption="\u0001" DefaultShowClassMemberStereotype="true" DefaultShowDirection="false" DefaultShowMultiplicityConstraints="false" DefaultShowOperationOption="\u0001" DefaultShowOperationSignature="true" DefaultShowOrderedMultiplicityConstraint="true" DefaultShowOwnedAssociationEndAsAttribute="true" DefaultShowOwner="false" DefaultShowOwnerSkipModelInFullyQualifiedOwnerSignature="true" DefaultShowReceptionOption="\u0001" DefaultShowTemplateParameter="true" DefaultShowTypeOption="\u0001" DefaultShowUniqueMultiplicityConstraint="true" DefaultTypeOfSubProcess="\u0000" DefaultWrapClassMember="false" DrawTextAnnotationOpenRectangleFollowConnectorEnd="true" EnableMinimumSize="true" EntityColumnConstraintsPresentation="\u0002" ErdIndexNumOfDigits="-1" ErdIndexPattern="{table_name}" ErdIndexPatternSyncAutomatically="true" ErdManyToManyJoinTableDelimiter="_" EtlTableDiagramFontSize="14" ExpandedSubProcessDiagramContent="\u0001" ForeignKeyArrowHeadSize="\u0002" ForeignKeyConnectorEndPointAssociatedColumn="false" ForeignKeyNamePattern="{reference_table_name}{reference_column_name}" ForeignKeyNamePatternCaseHandling="0" ForeignKeyRelationshipPattern="{association_name}" FractionalMetrics="true" GeneralizationSetNotation="\u0001" GraphicAntiAliasing="true" GridDiagramFontSize="14" InteractionDiagramShowDiagramFrame="false" InternalBlockDiagramShowDiagramFrame="false" LineJumpSize="\u0000" ModelElementNameAlignment="\u0004" MultipleLineClassName="\u0001" PackageDiagramShowDiagramFrame="false" PaintConnectorThroughLabel="true" ParametricDiagramShowDiagramFrame="false" PointConnectorEndToCompartmentMember="false" PrimaryKeyConstraintPattern="" PrimaryKeyNamePattern="ID" RenameConstructorAfterRenameClass="\u0000" RenameExtensionPointToFollowExtendUseCase="\u0000" RequirementDiagramShowDiagramFrame="false" ShapeAutoFitSize="false" ShowActivationsInSequenceDiagram="true" ShowActivityStateNodeCaption="524287" ShowArtifactOption="\u0002" ShowAssociatedDiagramNameOfInteraction="false" ShowAssociationRoleStereotypes="true" ShowAttributeGetterSetter="false" ShowBSElementCode="true" ShowClassEmptyCompartments="false" ShowColumnDefaultValue="false" ShowColumnNullable="true" ShowColumnType="true" ShowColumnUniqueConstraintName="false" ShowColumnUserType="false" ShowComponentOption="\u0002" ShowExtraColumnProperties="true" ShowInOutFlowButtonsInDataFlowDiagram="false" ShowInOutFlowsInSubLevelDiagram="true" ShowMessageOperationSignatureForSequenceAndCommunicationDiagram="true" ShowMessageStereotypeInSequenceAndCommunicationDiagram="true" ShowNumberInCollaborationDiagram="true" ShowNumberInSequenceDiagram="true" ShowPackageNameStyle="\u0000" ShowParameterNameInOperationSignature="true" ShowRowGridLineWithinCompClassDiagram="false" ShowRowGridLineWithinCompERD="true" ShowRowGridLineWithinORMDiagram="true" ShowSchemaNameInERD="true" ShowTransitionTrigger="\u0000" ShowUseCaseExtensionPoint="true" ShowUseCaseID="false" SnapConnectorsAfterZoom="false" StateDiagramShowDiagramFrame="false" StateShowParametersOfInternalActivities="false" StateShowPrePostConditionAndBodyOfInternalActivities="true" StopTargetLifelineOnCreateDestroyMessage="\u0002" SupportHtmlTaggedValue="false" SupportMultipleLineAttribute="true" SuppressImpliedMultiplicityForAttributeAssociationEnd="false" SyncAssociationNameWithAssociationClass="\u0000" SyncAssociationRoleNameWithReferencedAttributeName="true" SyncDocOfInterfaceToSubClass="\u0000" TextAntiAliasing="true" TextualAnalysisGenerateRequirementTextOption="\u0001" TextualAnalysisHighlightOption="\u0000" UnnamedIndexPattern="{table_name}_{column_name}" UseCaseDiagramShowDiagramFrame="false" UseStateNameTab="false" WireflowDiagramDevice="0" WireflowDiagramShowActiveFlowLabel="true" WireflowDiagramTheme="0" WireflowDiagramWireflowShowPreview="true" WireflowDiagramWireflowShowScreenId="true">
+				<DefaultHtmlDocFont Family="Dialog" Size="14" Style="0"/>
+			</DiagramOptions>
+			<GeneralOptions ConfirmSubLevelIdWithDot="true" QuickAddGlossaryTermParentModelId="default"/>
+			<InstantReverseOptions CalculateGeneralizationAndRealization="false" CreateShapeForParentModelOfDraggedClassPackage="false" ReverseGetterSetter="\u0000" ReverseOperationImplementation="false" ShowPackageForNewDiagram="\u0001" ShowPackageOwner="\u0000"/>
+			<ModelQualityOptions EnableModelQualityChecking="false"/>
+			<ORMOptions DecimalPrecision="19" DecimalScale="0" ExportCommentToDatabase="true" FormattedSQL="false" GenerateAssociationWithAttribute="false" GenerateDiagramFromORMWizards="true" GetterSetterVisibility="\u0000" IdGeneratorType="native" MappingFileColumnOrder="\u0000" NumericToClassType="\u0000" QuoteSQLIdentifier="\u0000" RecreateShapeWhenSync="false" SyncToClassDiagramAttributeName="\u0001" SyncToClassDiagramAttributeNamePrefix="" SyncToClassDiagramAttributeNameSuffix="" SyncToClassDiagramClassName="\u0000" SyncToClassDiagramClassNamePrefix="" SyncToClassDiagramClassNameSuffix="" SyncToERDColumnName="\u0000" SyncToERDColumnNamePrefix="" SyncToERDColumnNameSuffix="" SyncToERDTableName="\u0004" SyncToERDTableNamePrefix="" SyncToERDTableNameSuffix="" SynchronizeDefaultValueToColumn="false" SynchronizeName="\u0002" TablePerSubclassFKMapping="\u0000" UpperCaseSQL="true" UseDefaultDecimal="true" WrappingServletRequest="\u0001"/>
+			<RequirementDiagramOptions DefaultWrapMember="false" ShowAttributes="\u0001" SupportHTMLAttribute="false"/>
+			<StateCodeEngineOptions AutoCreateInitialStateInStateDiagram="true" AutoCreateTransitionMethods="true" DefaultInitialStateLocationX="-1" DefaultInitialStateLocationY="-1" GenerateDebugMessage="false" GenerateSample="true" GenerateTryCatch="true" Language="\u0000" RegenerateTransitionMethods="false" SyncTransitionMethods="true"/>
+			<WarningOptions CreateORMClassInDefaultPackage="true"/>
+			<PORepository>
+				<POUserIDFormats>
+					<POUserIDFormat Digits="2" Guid="false" Id="RC1Syv6GAqBwARUe" LastNumericValue="0" ModelType="BPMNElement" Prefix="BP" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="xC1Syv6GAqBwARUf" LastNumericValue="0" ModelType="Actor" Prefix="AC" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="xC1Syv6GAqBwARUg" LastNumericValue="0" ModelType="UseCase" Prefix="UC" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="xC1Syv6GAqBwARUh" LastNumericValue="0" ModelType="Requirement" Prefix="REQ" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="xC1Syv6GAqBwARUi" LastNumericValue="0" ModelType="BusinessRule" Prefix="BR" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="xC1Syv6GAqBwARUj" LastNumericValue="0" ModelType="PERTTask" Prefix="" Suffix=""/>
+					<POUserIDFormat Digits="-1" Guid="false" Id="xC1Syv6GAqBwARUk" LastNumericValue="0" ModelType="BusinessProcessDiagram" Prefix="" Suffix=""/>
+				</POUserIDFormats>
+			</PORepository>
+		</ProjectOptions>
+	</ProjectInfo>
+	<Models>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="Lw1Syv6GAqBwARGT" Name="boolean" PmAuthor="joe@legreq.com" PmCreateDateTime="2022-03-03T20:57:58.261" PmLastModified="2022-03-03T20:58:09.245" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="7w1Syv6GAqBwARGU" Name="byte" PmAuthor="joe@legreq.com" PmCreateDateTime="2022-03-03T20:57:58.263" PmLastModified="2022-03-03T20:58:09.251" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="Hw1Syv6GAqBwARGV" Name="char" PmAuthor="joe@legreq.com" PmCreateDateTime="2022-03-03T20:57:58.264" PmLastModified="2022-03-03T20:58:09.238" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="nw1Syv6GAqBwARGW" Name="double" PmAuthor="joe@legreq.com" PmCreateDateTime="2022-03-03T20:57:58.265" PmLastModified="2022-03-03T20:58:09.226" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="nw1Syv6GAqBwARGX" Name="float" PmAuthor="joe@legreq.com" PmCreateDateTime="2022-03-03T20:57:58.265" PmLastModified="2022-03-03T20:58:09.226" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="Xw1Syv6GAqBwARGY" Name="int" PmAuthor="joe@legreq.com" PmCreateDateTime="2022-03-03T20:57:58.266" PmLastModified="2022-03-03T20:58:09.183" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="Xw1Syv6GAqBwARGZ" Name="long" PmAuthor="joe@legreq.com" PmCreateDateTime="2022-03-03T20:57:58.266" PmLastModified="2022-03-03T20:58:09.261" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="3w1Syv6GAqBwARGa" Name="short" PmAuthor="joe@legreq.com" PmCreateDateTime="2022-03-03T20:57:58.267" PmLastModified="2022-03-03T20:58:09.246" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="3w1Syv6GAqBwARGb" Name="void" PmAuthor="joe@legreq.com" PmCreateDateTime="2022-03-03T20:57:58.267" PmLastModified="2022-03-03T20:58:09.246" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="3w1Syv6GAqBwARGc" Name="string" PmAuthor="joe@legreq.com" PmCreateDateTime="2022-03-03T20:57:58.267" PmLastModified="2022-03-03T20:58:09.246" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<Frame BacklogActivityId="0" BaseY="40" Documentation_plain="" Id="YHPSyv6GAqBwARUq" Name="Buy NFT Read DID:earth Sequence Diagram1" PmAuthor="Joe" PmCreateDateTime="2022-03-03T20:59:11.238" PmLastModified="2022-03-03T21:21:14.884" QualityReason_IsNull="true" QualityScore="-1" Type="sd" UserIDLastNumericValue="0" UserID_IsNull="true">
+			<ModelChildren>
+				<InteractionActor Abstract="false" Active="false" BacklogActivityId="0" BusinessModel="false" Documentation_plain="" Id="el_Syv6GAqBwARU0" Leaf="false" Name="User" PmAuthor="Joe" PmCreateDateTime="2022-03-03T20:59:22.590" PmLastModified="2022-03-03T21:08:25.066" QualityReason_IsNull="true" QualityScore="-1" Root="false" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="public">
+					<MasterView>
+						<InteractionActor Idref="el_Syv6GAqBwARUz" Name="User"/>
+					</MasterView>
+				</InteractionActor>
+				<InteractionLifeLine Active="false" BacklogActivityId="0" Class="false" ClassLevelStereotype="false" Documentation_plain="" Id="5CQyyv6GAqBwARVE" MultiObject="false" Multiplicity="Unspecified" Name="Cosmos DID Registry (running on hub)" PmAuthor="Joe" PmCreateDateTime="2022-03-03T20:59:33.287" PmLastModified="2022-03-03T21:16:43.732" QualityReason_IsNull="true" QualityScore="-1" Stopped="false" UserIDLastNumericValue="0" UserID_IsNull="true">
+					<Activations>
+						<Activation BacklogActivityId="0" Documentation_plain="" Id="DvUayv6GAqBwARfm" Name="Activation" OverlappingExecutionOccurrence="false" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:13:15.376" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<MasterView>
+								<Activation Idref="XvUayv6GAqBwARfo" Name="Activation"/>
+							</MasterView>
+						</Activation>
+					</Activations>
+					<MasterView>
+						<InteractionLifeLine Idref="5CQyyv6GAqBwARVD" Name="Cosmos DID Registry (running on hub)"/>
+					</MasterView>
+				</InteractionLifeLine>
+				<InteractionLifeLine Active="false" BacklogActivityId="0" Class="false" ClassLevelStereotype="false" Documentation_plain="" Id="ROkyyv6GAqBwARVm" MultiObject="false" Multiplicity="Unspecified" Name="ixo DID Registry" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:00:02.722" PmLastModified="2022-03-03T21:20:28.083" QualityReason_IsNull="true" QualityScore="-1" Stopped="false" UserIDLastNumericValue="0" UserID_IsNull="true">
+					<Activations>
+						<Activation BacklogActivityId="0" Documentation_plain="" Id="AX8ayv6GAqBwARgY" Name="Activation" OverlappingExecutionOccurrence="false" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:13:35.616" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<MasterView>
+								<Activation Idref="MX8ayv6GAqBwARga" Name="Activation"/>
+							</MasterView>
+						</Activation>
+					</Activations>
+					<MasterView>
+						<InteractionLifeLine Idref="ROkyyv6GAqBwARVl" Name="ixo DID Registry"/>
+					</MasterView>
+				</InteractionLifeLine>
+				<InteractionLifeLine Active="false" BacklogActivityId="0" Class="false" ClassLevelStereotype="false" Documentation_plain="" Id="bUXyyv6GAqBwARVy" MultiObject="false" Multiplicity="Unspecified" Name="ixo NFT Module" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:03:22.294" PmLastModified="2022-03-03T21:23:14.697" QualityReason_IsNull="true" QualityScore="-1" Stopped="false" UserIDLastNumericValue="0" UserID_IsNull="true">
+					<Activations>
+						<Activation BacklogActivityId="0" Documentation_plain="" Id="Efpqyv6GAqBwARe_" Name="Activation" OverlappingExecutionOccurrence="false" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:10:43.848" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<MasterView>
+								<Activation Idref="Wfpqyv6GAqBwARfB" Name="Activation"/>
+							</MasterView>
+						</Activation>
+						<Activation BacklogActivityId="0" Documentation_plain="" Id="oUkGyv6GAqBwARnw" Name="Activation" OverlappingExecutionOccurrence="false" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:21:52.261" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<MasterView>
+								<Activation Idref="SUkGyv6GAqBwARny" Name="Activation"/>
+							</MasterView>
+						</Activation>
+					</Activations>
+					<MasterView>
+						<InteractionLifeLine Idref="bUXyyv6GAqBwARVx" Name="ixo NFT Module"/>
+					</MasterView>
+				</InteractionLifeLine>
+				<InteractionLifeLine Active="false" BacklogActivityId="0" Class="false" ClassLevelStereotype="false" Documentation_plain="" Id="WVgKyv6GAqBwARW6" MultiObject="false" Multiplicity="Unspecified" Name="Web Browser" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:03:52.986" PmLastModified="2022-03-03T21:09:14.713" QualityReason_IsNull="true" QualityScore="-1" Stopped="false" UserIDLastNumericValue="0" UserID_IsNull="true">
+					<Activations>
+						<Activation BacklogActivityId="0" Documentation_plain="" Id="L08Kyv6GAqBwARYb" Name="Activation" OverlappingExecutionOccurrence="false" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:04:48.372" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<MasterView>
+								<Activation Idref="AM8Kyv6GAqBwARYd" Name="Activation"/>
+							</MasterView>
+						</Activation>
+					</Activations>
+					<MasterView>
+						<InteractionLifeLine Idref="WVgKyv6GAqBwARW5" Name="Web Browser"/>
+					</MasterView>
+				</InteractionLifeLine>
+				<InteractionLifeLine Active="false" BacklogActivityId="0" Class="false" ClassLevelStereotype="false" Documentation_plain="" Id="bVwKyv6GAqBwARXG" MultiObject="false" Multiplicity="Unspecified" Name="NFT DAPP" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:04:01.206" PmLastModified="2022-03-03T21:23:14.699" QualityReason_IsNull="true" QualityScore="-1" Stopped="false" UserIDLastNumericValue="0" UserID_IsNull="true">
+					<Activations>
+						<Activation BacklogActivityId="0" Documentation_plain="" Id="OliKyv6GAqBwARY0" Name="Activation" OverlappingExecutionOccurrence="false" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:04:58.460" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<MasterView>
+								<Activation Idref="RliKyv6GAqBwARY2" Name="Activation"/>
+							</MasterView>
+						</Activation>
+						<Activation BacklogActivityId="0" Documentation_plain="" Id="KxuKyv6GAqBwARaY" Name="Activation" OverlappingExecutionOccurrence="false" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:05:47.220" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<MasterView>
+								<Activation Idref="pxuKyv6GAqBwARaa" Name="Activation"/>
+							</MasterView>
+						</Activation>
+						<Activation BacklogActivityId="0" Documentation_plain="" Id="ibUqyv6GAqBwAReM" Name="Activation" OverlappingExecutionOccurrence="false" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:08:52.753" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<MasterView>
+								<Activation Idref="2bUqyv6GAqBwAReO" Name="Activation"/>
+							</MasterView>
+						</Activation>
+					</Activations>
+					<MasterView>
+						<InteractionLifeLine Idref="rVwKyv6GAqBwARXF" Name="NFT DAPP"/>
+					</MasterView>
+				</InteractionLifeLine>
+				<InteractionLifeLine Active="false" BacklogActivityId="0" Class="false" ClassLevelStereotype="false" Documentation_plain="" Id="mmUKyv6GAqBwARX2" MultiObject="false" Multiplicity="Unspecified" Name="Wallet" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:04:28.761" PmLastModified="2022-03-03T21:09:14.710" QualityReason_IsNull="true" QualityScore="-1" Stopped="false" UserIDLastNumericValue="0" UserID_IsNull="true">
+					<Activations>
+						<Activation BacklogActivityId="0" Documentation_plain="" Id="kcNKyv6GAqBwARbe" Name="Activation" OverlappingExecutionOccurrence="false" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:06:47.305" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<MasterView>
+								<Activation Idref="acNKyv6GAqBwARbg" Name="Activation"/>
+							</MasterView>
+						</Activation>
+					</Activations>
+					<MasterView>
+						<InteractionLifeLine Idref="GmUKyv6GAqBwARX1" Name="Wallet"/>
+					</MasterView>
+				</InteractionLifeLine>
+				<NOTE BacklogActivityId="0" Documentation="&lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Courier New; font-size: 14px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      This flow is for version 1.0, with a Cosmos DID regsitry on Gaia.&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;" Documentation_plain="This flow is for version 1.0, with a Cosmos DID regsitry on Gaia." Id="mKVayv6GAqBwARim" Name="" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:15:23.801" PmLastModified="2022-03-03T21:16:12.820" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+					<MasterView>
+						<NOTE Idref="GKVayv6GAqBwARil" Name=""/>
+					</MasterView>
+				</NOTE>
+				<InteractionLifeLine Active="false" BacklogActivityId="0" Class="false" ClassLevelStereotype="false" Documentation_plain="" Id="Qkzayv6GAqBwARi8" MultiObject="false" Multiplicity="Unspecified" Name="Chain Registry Repo" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:15:59.938" PmLastModified="2022-03-03T21:20:28.087" QualityReason_IsNull="true" QualityScore="-1" Stopped="false" UserIDLastNumericValue="0" UserID_IsNull="true">
+					<Activations>
+						<Activation BacklogActivityId="0" Documentation_plain="" Id="_N46yv6GAqBwARkc" Name="Activation" OverlappingExecutionOccurrence="false" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:17:24.159" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<MasterView>
+								<Activation Idref="at46yv6GAqBwARke" Name="Activation"/>
+							</MasterView>
+						</Activation>
+					</Activations>
+					<MasterView>
+						<InteractionLifeLine Idref="Qkzayv6GAqBwARi7" Name="Chain Registry Repo"/>
+					</MasterView>
+				</InteractionLifeLine>
+				<NOTE BacklogActivityId="0" Documentation="&lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Courier New; font-size: 14px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      Steps 7-12 perform a did:earth resolution&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;" Documentation_plain="Steps 7-12 perform a did:earth resolution" Id="OJv6yv6GAqBwARnK" Name="" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:21:04.796" PmLastModified="2022-03-03T21:23:14.701" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+					<MasterView>
+						<NOTE Idref="OJv6yv6GAqBwARnJ" Name=""/>
+					</MasterView>
+				</NOTE>
+			</ModelChildren>
+		</Frame>
+		<ModelRelationshipContainer BacklogActivityId="0" Documentation_plain="" Id="41xKyv6GAqBwARbC" Name="relationships" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:06:12.295" PmLastModified="2022-03-03T21:06:12.301" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+			<ModelChildren>
+				<ModelRelationshipContainer BacklogActivityId="0" Documentation_plain="" Id="41xKyv6GAqBwARbD" Name="Message" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:06:12.295" PmLastModified="2022-03-03T21:23:14.700" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+					<ModelChildren>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="el_Syv6GAqBwARU0" EndRelationshipToMetaModelElement="WVgKyv6GAqBwARW6" Id="dU8Kyv6GAqBwARYU" Name="Go get an NFT" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:04:48.302" PmLastModified="2022-03-03T21:23:14.696" QualityReason_IsNull="true" QualityScore="-1" ReturnMessage=".jqKyv6GAqBwARZL" SequenceNumber="1" ToActivation="L08Kyv6GAqBwARYb" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="el_Syv6GAqBwARU0" Id="dU8Kyv6GAqBwARYV" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:04:48.302" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="WVgKyv6GAqBwARW6" Id="dU8Kyv6GAqBwARYW" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:04:48.302" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="LU8Kyv6GAqBwARYX" Name="Go get an NFT"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="WVgKyv6GAqBwARW6" EndRelationshipToMetaModelElement="bVwKyv6GAqBwARXG" FromActivation="L08Kyv6GAqBwARYb" Id="MFiKyv6GAqBwARYn" Name="Browse NFTS" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:04:58.380" PmLastModified="2022-03-03T21:23:14.696" QualityReason_IsNull="true" QualityScore="-1" ReturnMessage="KeyKyv6GAqBwARY8" SequenceNumber="2" ToActivation="OliKyv6GAqBwARY0" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="WVgKyv6GAqBwARW6" Id="MFiKyv6GAqBwARYo" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:04:58.380" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bVwKyv6GAqBwARXG" Id="MFiKyv6GAqBwARYp" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:04:58.380" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="cFiKyv6GAqBwARYq" Name="Browse NFTS"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="bVwKyv6GAqBwARXG" EndRelationshipToMetaModelElement="WVgKyv6GAqBwARW6" FromActivation="OliKyv6GAqBwARY0" Id="KeyKyv6GAqBwARY8" Name="Show NFTs" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:05:05.940" PmLastModified="2022-03-03T21:23:14.699" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="3" ToActivation="L08Kyv6GAqBwARYb" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<ActionType>
+								<ActionTypeReturn Asynchronous="false" BacklogActivityId="0" Documentation_plain="" Id="meyKyv6GAqBwARZB" Iteration="false" Name="Return" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:05:05.945" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" RecurrenceCondition_IsNull="true" Script_IsNull="true" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ActionType>
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bVwKyv6GAqBwARXG" Id="KeyKyv6GAqBwARY9" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:05:05.940" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="WVgKyv6GAqBwARW6" Id="KeyKyv6GAqBwARY." PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:05:05.940" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="aeyKyv6GAqBwARY_" Name="Show NFTs"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="WVgKyv6GAqBwARW6" EndRelationshipToMetaModelElement="el_Syv6GAqBwARU0" FromActivation="L08Kyv6GAqBwARYb" Id=".jqKyv6GAqBwARZL" Name="Display NFTs" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:05:15.359" PmLastModified="2022-03-03T21:23:14.700" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="4" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<ActionType>
+								<ActionTypeReturn Asynchronous="false" BacklogActivityId="0" Documentation_plain="" Id="xjqKyv6GAqBwARZQ" Iteration="false" Name="Return" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:05:15.363" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" RecurrenceCondition_IsNull="true" Script_IsNull="true" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ActionType>
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="WVgKyv6GAqBwARW6" Id=".jqKyv6GAqBwARZM" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:05:15.359" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="el_Syv6GAqBwARU0" Id=".jqKyv6GAqBwARZN" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:05:15.359" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="hjqKyv6GAqBwARZO" Name="Display NFTs"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="el_Syv6GAqBwARU0" EndRelationshipToMetaModelElement="WVgKyv6GAqBwARW6" Id="NKGKyv6GAqBwARZg" Name="Buy NFT" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:05:25.804" PmLastModified="2022-03-03T21:23:14.701" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="5" ToActivation="L08Kyv6GAqBwARYb" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="el_Syv6GAqBwARU0" Id="NKGKyv6GAqBwARZh" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:05:25.804" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="WVgKyv6GAqBwARW6" Id="NKGKyv6GAqBwARZi" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:05:25.804" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="TKGKyv6GAqBwARZj" Name="Buy NFT"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="WVgKyv6GAqBwARW6" EndRelationshipToMetaModelElement="bVwKyv6GAqBwARXG" FromActivation="L08Kyv6GAqBwARYb" Id="dRuKyv6GAqBwARaR" Name="Buy NFT" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:05:47.182" PmLastModified="2022-03-03T21:23:14.698" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="6" ToActivation="KxuKyv6GAqBwARaY" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="WVgKyv6GAqBwARW6" Id="dRuKyv6GAqBwARaS" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:05:47.182" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bVwKyv6GAqBwARXG" Id="dRuKyv6GAqBwARaT" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:05:47.182" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="TRuKyv6GAqBwARaU" Name="Buy NFT"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="bVwKyv6GAqBwARXG" EndRelationshipToMetaModelElement="WVgKyv6GAqBwARW6" FromActivation="KxuKyv6GAqBwARaY" Id="qshKyv6GAqBwARa0" Name="Request tx signature" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:06:02.197" PmLastModified="2022-03-03T21:23:14.699" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="15" ToActivation="L08Kyv6GAqBwARYb" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bVwKyv6GAqBwARXG" Id="qshKyv6GAqBwARa1" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:06:02.197" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="WVgKyv6GAqBwARW6" Id="qshKyv6GAqBwARa2" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:06:02.197" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="GshKyv6GAqBwARa3" Name="Request tx signature"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="WVgKyv6GAqBwARW6" EndRelationshipToMetaModelElement="mmUKyv6GAqBwARX2" FromActivation="L08Kyv6GAqBwARYb" Id="VsNKyv6GAqBwARbX" Name="Request tx signature" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:06:47.274" PmLastModified="2022-03-03T21:23:14.694" QualityReason_IsNull="true" QualityScore="-1" ReturnMessage="NW4qyv6GAqBwARdo" SequenceNumber="16" ToActivation="kcNKyv6GAqBwARbe" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="WVgKyv6GAqBwARW6" Id="VsNKyv6GAqBwARbY" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:06:47.274" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="mmUKyv6GAqBwARX2" Id="VsNKyv6GAqBwARbZ" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:06:47.274" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="9sNKyv6GAqBwARba" Name="Request tx signature"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="mmUKyv6GAqBwARX2" EndRelationshipToMetaModelElement="el_Syv6GAqBwARU0" FromActivation="kcNKyv6GAqBwARbe" Id="QfbKyv6GAqBwARcK" Name="Display Transaction Request" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:07:31.330" PmLastModified="2022-03-03T21:23:14.700" QualityReason_IsNull="true" QualityScore="-1" ReturnMessage="pDPKyv6GAqBwARcy" SequenceNumber="17" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="mmUKyv6GAqBwARX2" Id="QfbKyv6GAqBwARcL" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:07:31.330" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="el_Syv6GAqBwARU0" Id="QfbKyv6GAqBwARcM" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:07:31.330" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="YfbKyv6GAqBwARcN" Name="Display Transaction Request"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="el_Syv6GAqBwARU0" EndRelationshipToMetaModelElement="mmUKyv6GAqBwARX2" Id="pDPKyv6GAqBwARcy" Name="Approve Transactions" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:07:55.045" PmLastModified="2022-03-03T21:23:14.701" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="18" ToActivation="kcNKyv6GAqBwARbe" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<ActionType>
+								<ActionTypeReturn Asynchronous="false" BacklogActivityId="0" Documentation_plain="" Id="1DPKyv6GAqBwARc3" Iteration="false" Name="Return" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:07:55.051" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" RecurrenceCondition_IsNull="true" Script_IsNull="true" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ActionType>
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="el_Syv6GAqBwARU0" Id="pDPKyv6GAqBwARcz" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:07:55.045" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="mmUKyv6GAqBwARX2" Id="pDPKyv6GAqBwARc0" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:07:55.045" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="5DPKyv6GAqBwARc1" Name="Approve Transactions"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="mmUKyv6GAqBwARX2" EndRelationshipToMetaModelElement="mmUKyv6GAqBwARX2" FromActivation="kcNKyv6GAqBwARbe" Id="kN_Kyv6GAqBwARdN" Name="Sign Transaction" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:08:07.049" PmLastModified="2022-03-03T21:23:14.700" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="20" ToActivation="kcNKyv6GAqBwARbe" Type="Self Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="mmUKyv6GAqBwARX2" Id="kN_Kyv6GAqBwARdO" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:08:07.049" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="mmUKyv6GAqBwARX2" Id="kN_Kyv6GAqBwARdP" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:08:07.049" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="sN_Kyv6GAqBwARdQ" Name="Sign Transaction"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="mmUKyv6GAqBwARX2" EndRelationshipToMetaModelElement="WVgKyv6GAqBwARW6" FromActivation="kcNKyv6GAqBwARbe" Id="NW4qyv6GAqBwARdo" Name="Signed TX" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:08:38.700" PmLastModified="2022-03-03T21:23:14.700" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="19" ToActivation="L08Kyv6GAqBwARYb" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<ActionType>
+								<ActionTypeReturn Asynchronous="false" BacklogActivityId="0" Documentation_plain="" Id="bW4qyv6GAqBwARdt" Iteration="false" Name="Return" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:08:38.710" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" RecurrenceCondition_IsNull="true" Script_IsNull="true" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ActionType>
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="mmUKyv6GAqBwARX2" Id="NW4qyv6GAqBwARdp" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:08:38.700" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="WVgKyv6GAqBwARW6" Id="NW4qyv6GAqBwARdq" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:08:38.700" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="dW4qyv6GAqBwARdr" Name="Signed TX"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="WVgKyv6GAqBwARW6" EndRelationshipToMetaModelElement="bVwKyv6GAqBwARXG" FromActivation="L08Kyv6GAqBwARYb" Id="VrUqyv6GAqBwAReF" Name="Signed purchase TX " PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:08:52.714" PmLastModified="2022-03-03T21:23:14.699" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="21" ToActivation="ibUqyv6GAqBwAReM" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="WVgKyv6GAqBwARW6" Id="VrUqyv6GAqBwAReG" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:08:52.714" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bVwKyv6GAqBwARXG" Id="VrUqyv6GAqBwAReH" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:08:52.714" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="trUqyv6GAqBwAReI" Name="Signed purchase TX "/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="bVwKyv6GAqBwARXG" EndRelationshipToMetaModelElement="bUXyyv6GAqBwARVy" FromActivation="ibUqyv6GAqBwAReM" Id="hvpqyv6GAqBwARe4" Name="Transfer Ownership" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:10:43.809" PmLastModified="2022-03-03T21:23:14.697" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="22" ToActivation="Efpqyv6GAqBwARe_" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bVwKyv6GAqBwARXG" Id="hvpqyv6GAqBwARe5" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:10:43.809" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bUXyyv6GAqBwARVy" Id="hvpqyv6GAqBwARe6" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:10:43.809" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="Jvpqyv6GAqBwARe7" Name="Transfer Ownership"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="bVwKyv6GAqBwARXG" EndRelationshipToMetaModelElement="5CQyyv6GAqBwARVE" FromActivation="KxuKyv6GAqBwARaY" Id="wvUayv6GAqBwARff" Name="Resolve NFT IID" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:13:15.331" PmLastModified="2022-03-03T21:23:14.696" QualityReason_IsNull="true" QualityScore="-1" ReturnMessage="rSuayv6GAqBwARhp" SequenceNumber="7" ToActivation="DvUayv6GAqBwARfm" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bVwKyv6GAqBwARXG" Id="wvUayv6GAqBwARfg" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:13:15.331" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="5CQyyv6GAqBwARVE" Id="wvUayv6GAqBwARfh" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:13:15.331" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="4vUayv6GAqBwARfi" Name="Resolve NFT IID"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="5CQyyv6GAqBwARVE" EndRelationshipToMetaModelElement="bVwKyv6GAqBwARXG" FromActivation="DvUayv6GAqBwARfm" Id="rSuayv6GAqBwARhp" Name="Linked Resource Reference" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:14:30.453" PmLastModified="2022-03-03T21:23:14.692" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="8" ToActivation="KxuKyv6GAqBwARaY" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<ActionType>
+								<ActionTypeReturn Asynchronous="false" BacklogActivityId="0" Documentation_plain="" Id="vSuayv6GAqBwARhu" Iteration="false" Name="Return" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:14:30.461" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" RecurrenceCondition_IsNull="true" Script_IsNull="true" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ActionType>
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="5CQyyv6GAqBwARVE" Id="rSuayv6GAqBwARhq" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:14:30.453" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bVwKyv6GAqBwARXG" Id="rSuayv6GAqBwARhr" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:14:30.453" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="7Suayv6GAqBwARhs" Name="Linked Resource Reference"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="bVwKyv6GAqBwARXG" EndRelationshipToMetaModelElement="Qkzayv6GAqBwARi8" FromActivation="KxuKyv6GAqBwARaY" Id="eN46yv6GAqBwARkV" Name="Get chain definition" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:17:24.126" PmLastModified="2022-03-03T21:23:14.698" QualityReason_IsNull="true" QualityScore="-1" ReturnMessage="xyh6yv6GAqBwARls" SequenceNumber="9" ToActivation="_N46yv6GAqBwARkc" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bVwKyv6GAqBwARXG" Id="eN46yv6GAqBwARkW" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:17:24.126" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="Qkzayv6GAqBwARi8" Id="eN46yv6GAqBwARkX" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:17:24.126" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="hN46yv6GAqBwARkY" Name="Get chain definition"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="Qkzayv6GAqBwARi8" EndRelationshipToMetaModelElement="bVwKyv6GAqBwARXG" FromActivation="_N46yv6GAqBwARkc" Id="xyh6yv6GAqBwARls" Name="chain.json" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:19:09.027" PmLastModified="2022-03-03T21:23:14.699" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="10" ToActivation="KxuKyv6GAqBwARaY" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<ActionType>
+								<ActionTypeReturn Asynchronous="false" BacklogActivityId="0" Documentation_plain="" Id="1yh6yv6GAqBwARlx" Iteration="false" Name="Return" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:19:09.035" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" RecurrenceCondition_IsNull="true" Script_IsNull="true" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ActionType>
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="Qkzayv6GAqBwARi8" Id="xyh6yv6GAqBwARlt" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:19:09.027" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bVwKyv6GAqBwARXG" Id="xyh6yv6GAqBwARlu" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:19:09.027" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="pyh6yv6GAqBwARlv" Name="chain.json"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="bVwKyv6GAqBwARXG" EndRelationshipToMetaModelElement="ROkyyv6GAqBwARVm" FromActivation="KxuKyv6GAqBwARaY" Id="DXJ6yv6GAqBwARmH" Name="Resolve NFT IID" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:19:23.824" PmLastModified="2022-03-03T21:23:14.698" QualityReason_IsNull="true" QualityScore="-1" ReturnMessage="uDl6yv6GAqBwARmk" SequenceNumber="11" ToActivation="AX8ayv6GAqBwARgY" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bVwKyv6GAqBwARXG" Id="DXJ6yv6GAqBwARmI" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:19:23.824" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="ROkyyv6GAqBwARVm" Id="DXJ6yv6GAqBwARmJ" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:19:23.824" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="zXJ6yv6GAqBwARmK" Name="Resolve NFT IID"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="ROkyyv6GAqBwARVm" EndRelationshipToMetaModelElement="bVwKyv6GAqBwARXG" FromActivation="AX8ayv6GAqBwARgY" Id="uDl6yv6GAqBwARmk" Name="Asset Module Reference" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:19:43.645" PmLastModified="2022-03-03T21:23:14.699" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="12" ToActivation="KxuKyv6GAqBwARaY" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<ActionType>
+								<ActionTypeReturn Asynchronous="false" BacklogActivityId="0" Documentation_plain="" Id="JDl6yv6GAqBwARmp" Iteration="false" Name="Return" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:19:43.652" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" RecurrenceCondition_IsNull="true" Script_IsNull="true" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ActionType>
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="ROkyyv6GAqBwARVm" Id="uDl6yv6GAqBwARml" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:19:43.645" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bVwKyv6GAqBwARXG" Id="uDl6yv6GAqBwARmm" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:19:43.645" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref=".Dl6yv6GAqBwARmn" Name="Asset Module Reference"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="bVwKyv6GAqBwARXG" EndRelationshipToMetaModelElement="bUXyyv6GAqBwARVy" FromActivation="KxuKyv6GAqBwARaY" Id="ikkGyv6GAqBwARnp" Name="Resolve NFT IID" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:21:52.209" PmLastModified="2022-03-03T21:23:14.698" QualityReason_IsNull="true" QualityScore="-1" ReturnMessage="t.SGyv6GAqBwARoQ" SequenceNumber="13" ToActivation="oUkGyv6GAqBwARnw" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bVwKyv6GAqBwARXG" Id="ikkGyv6GAqBwARnq" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:21:52.209" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bUXyyv6GAqBwARVy" Id="ikkGyv6GAqBwARnr" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:21:52.209" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="KkkGyv6GAqBwARns" Name="Resolve NFT IID"/>
+							</MasterView>
+						</Message>
+						<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="bUXyyv6GAqBwARVy" EndRelationshipToMetaModelElement="bVwKyv6GAqBwARXG" FromActivation="oUkGyv6GAqBwARnw" Id="t.SGyv6GAqBwARoQ" Name="Return DID Document" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:22:30.509" PmLastModified="2022-03-03T21:23:14.697" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="14" ToActivation="KxuKyv6GAqBwARaY" Type="Message" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<ActionType>
+								<ActionTypeReturn Asynchronous="false" BacklogActivityId="0" Documentation_plain="" Id="n.SGyv6GAqBwARoV" Iteration="false" Name="Return" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:22:30.521" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" RecurrenceCondition_IsNull="true" Script_IsNull="true" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ActionType>
+							<FromEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bUXyyv6GAqBwARVy" Id="t.SGyv6GAqBwARoR" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:22:30.509" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</FromEnd>
+							<ToEnd>
+								<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="bVwKyv6GAqBwARXG" Id="t.SGyv6GAqBwARoS" PmAuthor="Joe" PmCreateDateTime="2022-03-03T21:22:30.509" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ToEnd>
+							<MasterView>
+								<Message Idref="T.SGyv6GAqBwARoT" Name="Return DID Document"/>
+							</MasterView>
+						</Message>
+					</ModelChildren>
+				</ModelRelationshipContainer>
+			</ModelChildren>
+		</ModelRelationshipContainer>
+	</Models>
+	<Diagrams>
+		<InteractionDiagram AlignToGrid="false" AutoExtendActivations="true" AutoFitShapesSize="false" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorModelElementNameAlignment="4" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" DisplayLifeLinesAsRobustnessAnalysisIcon="0" Editable="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="745" HideConnectorIfFromToIsHidden="0" HideEmptyTaggedValues="false" Id="t7PSyv6GAqBwARUm" ImageHeight="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="true" InteractionLifeLinePresentationOption="0" Maximized="true" ModelElementNameAlignment="4" Name="Buy NFT Read DID:earth Sequence Diagram1" PaintConnectorThroughLabel="0" PmAuthor="Joe" PmCreateDateTime="2022-03-03T20:59:11.213" PmLastModified="2022-03-03T21:32:34.575" PointConnectorEndToCompartmentMember="false" QualityScore="-1" RequestFitSizeWithPromptUser="false" RequestValidateSnapToGrid="false" SequenceNumberHandling="0" SequenceNumbering="1" ShapePresentationOption="0" ShowActivations="true" ShowActivityStateNodeCaption="524287" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowArgumentsInMessagesOperationSignature="true" ShowColorLegend="false" ShowConnectorLegend="false" ShowConnectorName="0" ShowConstraints="false" ShowDefaultPackage="false" ShowDiagramFrame="false" ShowInformationItemOption="2" ShowMessageName="true" ShowMessageStereotype="true" ShowMessagesOperationSignature="true" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowParameterNamesInMessageOperationSignature="true" ShowParameterTypesInMessageOperationSignature="true" ShowRelationshipConstraintExpression="false" ShowReturnTypeInMessagesOperationSignature="true" ShowSequenceNumbers="true" ShowShapeLegend="false" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" Width="1575" X="0" Y="0" ZoomRatio="1.0" _globalPaletteOption="true" _requestFixDiagramForRoseImport="false" _requestRecalculateSequenceNumbers="false" _rootFrame="YHPSyv6GAqBwARUq" documentation="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Courier New; font-size: 14px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;">
+			<Shapes>
+				<Activation Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="40" Id="SUkGyv6GAqBwARny" MetaModelElement="oUkGyv6GAqBwARnw" Model="oUkGyv6GAqBwARnw" ModelElementNameAlignment="9" Name="Activation" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="8" X="1161" Y="456" ZOrder="2">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="8" X="1161" Y="456"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Activation>
+				<NOTE Angle="0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" CreatorDiagramType="InteractionDiagram" Foreground="rgb(0, 0, 0)" Height="79" Id="OJv6yv6GAqBwARnJ" MetaModelElement="OJv6yv6GAqBwARnK" Model="OJv6yv6GAqBwARnK" ModelElementNameAlignment="9" Name="" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="175" X="142" Y="284" ZOrder="4">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Courier New" Size="14" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="160" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</NOTE>
+				<Activation Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="42" Id="at46yv6GAqBwARke" MetaModelElement="_N46yv6GAqBwARkc" Model="_N46yv6GAqBwARkc" ModelElementNameAlignment="9" Name="Activation" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="8" X="887" Y="335" ZOrder="6">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="42" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="8" X="857" Y="335"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Activation>
+				<InteractionLifeLine Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="848" Id="Qkzayv6GAqBwARi7" MetaModelElement="Qkzayv6GAqBwARi8" Model="Qkzayv6GAqBwARi8" ModelElementNameAlignment="1" Name="Chain Registry Repo" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" ParentFrame="YHPSyv6GAqBwARUq" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowClassifier="true" ShowStereotypeIconName="0" Width="117" X="833" Y="40" ZOrder="8">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="117" X="833" Y="40"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</InteractionLifeLine>
+				<NOTE Angle="0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" CreatorDiagramType="InteractionDiagram" Foreground="rgb(0, 0, 0)" Height="65" Id="GKVayv6GAqBwARil" MetaModelElement="mKVayv6GAqBwARim" Model="mKVayv6GAqBwARim" ModelElementNameAlignment="9" Name="" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="239" X="1255" Y="32" ZOrder="10">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Courier New" Size="14" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="224" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</NOTE>
+				<Activation Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="86" Id="MX8ayv6GAqBwARga" MetaModelElement="AX8ayv6GAqBwARgY" Model="AX8ayv6GAqBwARgY" ModelElementNameAlignment="9" Name="Activation" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="8" X="1021" Y="347" ZOrder="12">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="86" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="8" X="1021" Y="347"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Activation>
+				<Activation Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="35" Id="XvUayv6GAqBwARfo" MetaModelElement="DvUayv6GAqBwARfm" Model="DvUayv6GAqBwARfm" ModelElementNameAlignment="9" Name="Activation" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="8" X="713" Y="283" ZOrder="14">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="35" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="8" X="703" Y="283"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Activation>
+				<Activation Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="12" Id="Wfpqyv6GAqBwARfB" MetaModelElement="Efpqyv6GAqBwARe_" Model="Efpqyv6GAqBwARe_" ModelElementNameAlignment="9" Name="Activation" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="8" X="1161" Y="789" ZOrder="16">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="12" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="8" X="1161" Y="686"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Activation>
+				<Activation Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="60" Id="2bUqyv6GAqBwAReO" MetaModelElement="ibUqyv6GAqBwAReM" Model="ibUqyv6GAqBwAReM" ModelElementNameAlignment="9" Name="Activation" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="8" X="375" Y="753" ZOrder="18">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="60" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="8" X="388" Y="650"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Activation>
+				<Activation Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="152" Id="acNKyv6GAqBwARbg" MetaModelElement="kcNKyv6GAqBwARbe" Model="kcNKyv6GAqBwARbe" ModelElementNameAlignment="9" Name="Activation" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="8" X="544" Y="597" ZOrder="20">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="152" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="8" X="538" Y="494"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Activation>
+				<Activation Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="313" Id="pxuKyv6GAqBwARaa" MetaModelElement="KxuKyv6GAqBwARaY" Model="KxuKyv6GAqBwARaY" ModelElementNameAlignment="9" Name="Activation" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="8" X="375" Y="267" ZOrder="22">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="313" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="8" X="388" Y="267"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Activation>
+				<Activation Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="42" Id="RliKyv6GAqBwARY2" MetaModelElement="OliKyv6GAqBwARY0" Model="OliKyv6GAqBwARY0" ModelElementNameAlignment="9" Name="Activation" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="8" X="375" Y="151" ZOrder="24">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="42" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="8" X="388" Y="151"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Activation>
+				<Activation Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="656" Id="AM8Kyv6GAqBwARYd" MetaModelElement="L08Kyv6GAqBwARYb" Model="L08Kyv6GAqBwARYb" ModelElementNameAlignment="9" Name="Activation" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="8" X="198" Y="127" ZOrder="26">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="656" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="8" X="198" Y="127"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Activation>
+				<InteractionLifeLine Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="848" Id="GmUKyv6GAqBwARX1" MetaModelElement="mmUKyv6GAqBwARX2" Model="mmUKyv6GAqBwARX2" ModelElementNameAlignment="1" Name="Wallet" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" ParentFrame="YHPSyv6GAqBwARUq" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowClassifier="true" ShowStereotypeIconName="0" Width="70" X="513" Y="40" ZOrder="28">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="70" X="513" Y="40"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</InteractionLifeLine>
+				<InteractionLifeLine Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="848" Id="rVwKyv6GAqBwARXF" MetaModelElement="bVwKyv6GAqBwARXG" Model="bVwKyv6GAqBwARXG" ModelElementNameAlignment="1" Name="NFT DAPP" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" ParentFrame="YHPSyv6GAqBwARUq" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowClassifier="true" ShowStereotypeIconName="0" Width="75" X="342" Y="40" ZOrder="30">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="75" X="342" Y="40"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</InteractionLifeLine>
+				<InteractionLifeLine Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="848" Id="WVgKyv6GAqBwARW5" MetaModelElement="WVgKyv6GAqBwARW6" Model="WVgKyv6GAqBwARW6" ModelElementNameAlignment="1" Name="Web Browser" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" ParentFrame="YHPSyv6GAqBwARUq" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowClassifier="true" ShowStereotypeIconName="0" Width="87" X="159" Y="40" ZOrder="32">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="87" X="159" Y="40"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</InteractionLifeLine>
+				<InteractionLifeLine Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="848" Id="bUXyyv6GAqBwARVx" MetaModelElement="bUXyyv6GAqBwARVy" Model="bUXyyv6GAqBwARVy" ModelElementNameAlignment="1" Name="ixo NFT Module" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" ParentFrame="YHPSyv6GAqBwARUq" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowClassifier="true" ShowStereotypeIconName="0" Width="98" X="1116" Y="40" ZOrder="34">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="98" X="1116" Y="40"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</InteractionLifeLine>
+				<InteractionLifeLine Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="848" Id="ROkyyv6GAqBwARVl" MetaModelElement="ROkyyv6GAqBwARVm" Model="ROkyyv6GAqBwARVm" ModelElementNameAlignment="1" Name="ixo DID Registry" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" ParentFrame="YHPSyv6GAqBwARUq" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowClassifier="true" ShowStereotypeIconName="0" Width="100" X="975" Y="40" ZOrder="36">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="100" X="975" Y="40"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</InteractionLifeLine>
+				<InteractionLifeLine Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="848" Id="5CQyyv6GAqBwARVD" MetaModelElement="5CQyyv6GAqBwARVE" Model="5CQyyv6GAqBwARVE" ModelElementNameAlignment="1" Name="Cosmos DID Registry (running on hub)" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" ParentFrame="YHPSyv6GAqBwARUq" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowClassifier="true" ShowStereotypeIconName="0" Width="126" X="654" Y="40" ZOrder="38">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="30" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="126" X="654" Y="40"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</InteractionLifeLine>
+				<InteractionActor Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="848" Id="el_Syv6GAqBwARUz" MetaModelElement="el_Syv6GAqBwARU0" Model="el_Syv6GAqBwARU0" ModelElementNameAlignment="9" Name="User" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" ParentFrame="YHPSyv6GAqBwARUq" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="60" X="44" Y="40" ZOrder="40">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="44" X="52" Y="75"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</InteractionActor>
+			</Shapes>
+			<Connectors>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="el_Syv6GAqBwARUz" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="LU8Kyv6GAqBwARYX" MetaModelElement="dU8Kyv6GAqBwARYU" Model="dU8Kyv6GAqBwARYU" ModelElementNameAlignment="9" Name="Go get an NFT" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="WVgKyv6GAqBwARW5" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="220" X="28" Y="77" ZOrder="42">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="105" X="86" Y="107"/>
+					<Points>
+						<Point X="78.0" Y="127.0"/>
+						<Point X="198.0" Y="127.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="WVgKyv6GAqBwARW5" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="cFiKyv6GAqBwARYq" MetaModelElement="MFiKyv6GAqBwARYn" Model="MFiKyv6GAqBwARYn" ModelElementNameAlignment="9" Name="Browse NFTS" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="rVwKyv6GAqBwARXF" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="269" X="156" Y="101" ZOrder="44">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="101" X="236" Y="132"/>
+					<Points>
+						<Point X="206.0" Y="151.0"/>
+						<Point X="375.0" Y="151.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="rVwKyv6GAqBwARXF" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="aeyKyv6GAqBwARY_" MetaModelElement="KeyKyv6GAqBwARY8" Model="KeyKyv6GAqBwARY8" ModelElementNameAlignment="9" Name="Show NFTs" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="WVgKyv6GAqBwARW5" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="269" X="156" Y="131" ZOrder="46">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="90" X="244" Y="161"/>
+					<Points>
+						<Point X="375.0" Y="181.0"/>
+						<Point X="206.0" Y="181.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="WVgKyv6GAqBwARW5" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="hjqKyv6GAqBwARZO" MetaModelElement=".jqKyv6GAqBwARZL" Model=".jqKyv6GAqBwARZL" ModelElementNameAlignment="9" Name="Display NFTs" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="el_Syv6GAqBwARUz" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="220" X="28" Y="161" ZOrder="48">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="99" X="87" Y="191"/>
+					<Points>
+						<Point X="198.0" Y="211.0"/>
+						<Point X="78.0" Y="211.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="el_Syv6GAqBwARUz" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="TKGKyv6GAqBwARZj" MetaModelElement="NKGKyv6GAqBwARZg" Model="NKGKyv6GAqBwARZg" ModelElementNameAlignment="9" Name="Buy NFT" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="WVgKyv6GAqBwARW5" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="220" X="28" Y="200" ZOrder="50">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="76" X="100" Y="230"/>
+					<Points>
+						<Point X="78.0" Y="250.0"/>
+						<Point X="198.0" Y="250.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="WVgKyv6GAqBwARW5" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="TRuKyv6GAqBwARaU" MetaModelElement="dRuKyv6GAqBwARaR" Model="dRuKyv6GAqBwARaR" ModelElementNameAlignment="9" Name="Buy NFT" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="rVwKyv6GAqBwARXF" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="269" X="156" Y="217" ZOrder="52">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="76" X="256" Y="248"/>
+					<Points>
+						<Point X="206.0" Y="267.0"/>
+						<Point X="375.0" Y="267.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="rVwKyv6GAqBwARXF" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="GshKyv6GAqBwARa3" MetaModelElement="qshKyv6GAqBwARa0" Model="qshKyv6GAqBwARa0" ModelElementNameAlignment="9" Name="Request tx signature" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="WVgKyv6GAqBwARW5" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="269" X="156" Y="518" ZOrder="54">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="140" X="227" Y="551"/>
+					<Points>
+						<Point X="375.0" Y="568.0"/>
+						<Point X="206.0" Y="568.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="WVgKyv6GAqBwARW5" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="9sNKyv6GAqBwARba" MetaModelElement="VsNKyv6GAqBwARbX" Model="VsNKyv6GAqBwARbX" ModelElementNameAlignment="9" Name="Request tx signature" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="GmUKyv6GAqBwARX1" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="438" X="156" Y="547" ZOrder="56">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="140" X="229" Y="578"/>
+					<Points>
+						<Point X="206.0" Y="597.0"/>
+						<Point X="544.0" Y="597.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="GmUKyv6GAqBwARX1" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="YfbKyv6GAqBwARcN" MetaModelElement="QfbKyv6GAqBwARcK" Model="QfbKyv6GAqBwARcK" ModelElementNameAlignment="9" Name="Display Transaction Request" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="el_Syv6GAqBwARUz" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="566" X="28" Y="590" ZOrder="58">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="179" X="221" Y="620"/>
+					<Points>
+						<Point X="544.0" Y="640.0"/>
+						<Point X="78.0" Y="640.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="el_Syv6GAqBwARUz" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="5DPKyv6GAqBwARc1" MetaModelElement="pDPKyv6GAqBwARcy" Model="pDPKyv6GAqBwARcy" ModelElementNameAlignment="9" Name="Approve Transactions" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="GmUKyv6GAqBwARX1" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="566" X="28" Y="620" ZOrder="60">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="146" X="238" Y="650"/>
+					<Points>
+						<Point X="78.0" Y="670.0"/>
+						<Point X="544.0" Y="670.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="GmUKyv6GAqBwARX1" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="120" Id="sN_Kyv6GAqBwARdQ" MetaModelElement="kN_Kyv6GAqBwARdN" Model="kN_Kyv6GAqBwARdN" ModelElementNameAlignment="9" Name="Sign Transaction" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="GmUKyv6GAqBwARX1" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="130" X="502" Y="667" ZOrder="62">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="121" X="582" Y="717"/>
+					<Points>
+						<Point X="552.0" Y="717.0"/>
+						<Point X="582.0" Y="717.0"/>
+						<Point X="582.0" Y="737.0"/>
+						<Point X="552.0" Y="737.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="GmUKyv6GAqBwARX1" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="dW4qyv6GAqBwARdr" MetaModelElement="NW4qyv6GAqBwARdo" Model="NW4qyv6GAqBwARdo" ModelElementNameAlignment="9" Name="Signed TX" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="WVgKyv6GAqBwARW5" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="438" X="156" Y="650" ZOrder="64">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="90" X="329" Y="680"/>
+					<Points>
+						<Point X="544.0" Y="700.0"/>
+						<Point X="206.0" Y="700.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="WVgKyv6GAqBwARW5" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="trUqyv6GAqBwAReI" MetaModelElement="VrUqyv6GAqBwAReF" Model="VrUqyv6GAqBwAReF" ModelElementNameAlignment="9" Name="Signed purchase TX " PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="rVwKyv6GAqBwARXF" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="269" X="156" Y="721" ZOrder="66">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="142" X="219" Y="751"/>
+					<Points>
+						<Point X="206.0" Y="771.0"/>
+						<Point X="375.0" Y="771.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="rVwKyv6GAqBwARXF" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="Jvpqyv6GAqBwARe7" MetaModelElement="hvpqyv6GAqBwARe4" Model="hvpqyv6GAqBwARe4" ModelElementNameAlignment="9" Name="Transfer Ownership" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="bUXyyv6GAqBwARVx" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="878" X="333" Y="739" ZOrder="68">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="135" X="408" Y="769"/>
+					<Points>
+						<Point X="383.0" Y="789.0"/>
+						<Point X="1161.0" Y="789.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="rVwKyv6GAqBwARXF" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="4vUayv6GAqBwARfi" MetaModelElement="wvUayv6GAqBwARff" Model="wvUayv6GAqBwARff" ModelElementNameAlignment="9" Name="Resolve NFT IID" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="5CQyyv6GAqBwARVD" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="430" X="333" Y="233" ZOrder="70">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="114" X="415" Y="262"/>
+					<Points>
+						<Point X="383.0" Y="283.0"/>
+						<Point X="713.0" Y="283.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="5CQyyv6GAqBwARVD" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="7Suayv6GAqBwARhs" MetaModelElement="rSuayv6GAqBwARhp" Model="rSuayv6GAqBwARhp" ModelElementNameAlignment="9" Name="Linked Resource Reference" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="rVwKyv6GAqBwARXF" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="430" X="333" Y="256" ZOrder="72">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="169" X="409" Y="285"/>
+					<Points>
+						<Point X="713.0" Y="306.0"/>
+						<Point X="383.0" Y="306.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="rVwKyv6GAqBwARXF" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="hN46yv6GAqBwARkY" MetaModelElement="eN46yv6GAqBwARkV" Model="eN46yv6GAqBwARkV" ModelElementNameAlignment="9" Name="Get chain definition" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="Qkzayv6GAqBwARi7" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="604" X="333" Y="285" ZOrder="74">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="127" X="416" Y="318"/>
+					<Points>
+						<Point X="383.0" Y="335.0"/>
+						<Point X="887.0" Y="335.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="Qkzayv6GAqBwARi7" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="pyh6yv6GAqBwARlv" MetaModelElement="xyh6yv6GAqBwARls" Model="xyh6yv6GAqBwARls" ModelElementNameAlignment="9" Name="chain.json" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="rVwKyv6GAqBwARXF" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="604" X="333" Y="315" ZOrder="76">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="88" X="412" Y="342"/>
+					<Points>
+						<Point X="887.0" Y="365.0"/>
+						<Point X="383.0" Y="365.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="rVwKyv6GAqBwARXF" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="zXJ6yv6GAqBwARmK" MetaModelElement="DXJ6yv6GAqBwARmH" Model="DXJ6yv6GAqBwARmH" ModelElementNameAlignment="9" Name="Resolve NFT IID" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="ROkyyv6GAqBwARVl" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="738" X="333" Y="355" ZOrder="78">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="120" X="398" Y="382"/>
+					<Points>
+						<Point X="383.0" Y="405.0"/>
+						<Point X="1021.0" Y="405.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="ROkyyv6GAqBwARVl" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id=".Dl6yv6GAqBwARmn" MetaModelElement="uDl6yv6GAqBwARmk" Model="uDl6yv6GAqBwARmk" ModelElementNameAlignment="9" Name="Asset Module Reference" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="rVwKyv6GAqBwARXF" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="738" X="333" Y="380" ZOrder="80">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="159" X="397" Y="409"/>
+					<Points>
+						<Point X="1021.0" Y="430.0"/>
+						<Point X="383.0" Y="430.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="rVwKyv6GAqBwARXF" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="KkkGyv6GAqBwARns" MetaModelElement="ikkGyv6GAqBwARnp" Model="ikkGyv6GAqBwARnp" ModelElementNameAlignment="9" Name="Resolve NFT IID" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="bUXyyv6GAqBwARVx" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="878" X="333" Y="406" ZOrder="82">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="120" X="398" Y="437"/>
+					<Points>
+						<Point X="383.0" Y="456.0"/>
+						<Point X="1161.0" Y="456.0"/>
+					</Points>
+				</Message>
+				<Message Background="rgb(0, 0, 0)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Folded="false" Foreground="rgb(0, 0, 0)" From="bUXyyv6GAqBwARVx" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="T.SGyv6GAqBwARoT" MetaModelElement="t.SGyv6GAqBwARoQ" Model="t.SGyv6GAqBwARoQ" ModelElementNameAlignment="9" Name="Return DID Document" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowArgumentsInMessageOperationSignature="0" ShowConnectorName="2" ShowMessageName="0" ShowMessageOperationSignature="0" ShowParameterNamesInMessageOperationSignature="0" ShowParameterTypesInMessageOperationSignature="0" ShowReturnTypeInMessageOperationSignature="0" To="rVwKyv6GAqBwARXF" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="878" X="333" Y="436" ZOrder="84">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="147" X="397" Y="464"/>
+					<Points>
+						<Point X="1161.0" Y="486.0"/>
+						<Point X="383.0" Y="486.0"/>
+					</Points>
+				</Message>
+			</Connectors>
+		</InteractionDiagram>
+	</Diagrams>
+</Project>
