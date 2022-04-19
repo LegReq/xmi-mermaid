@@ -1,5 +1,10 @@
 #!/bin/env node
 
+//TODO: Start on this line of the diagram
+//  uml:Diagram diagramType="InteractionDiagram" documentation="" name="VC Issuance - Sequence" toolName="Visual Paradigm" xmi:id="VjyV8t6GAqBwAQlL"
+//  walk through the diagrams to get the lifeline names/messages then construct from there
+//  order operations by Y value, order lifelines/actors by X values and combine actors/lifelines
+
 const fs = require('fs');
 const { XMLParser } = require('fast-xml-parser');
 
@@ -22,7 +27,7 @@ function loadXml() {
   };
 
   var parser = new XMLParser(pOptions);
-  var xml = fs.readFileSync('xmi.xml', 'utf8');
+  var xml = fs.readFileSync('test1.xml', 'utf8');
   var result = parser.parse(xml);
 
   //console.log(JSON.stringify(result, null, 2));
@@ -34,7 +39,7 @@ function loadXml() {
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
 function extractLifelines(result) {
-  var xmlLifelines = result['xmi:XMI']['uml:Model'].ownedMember[6].ownedBehavior[0].lifeline;
+  var xmlLifelines = result['xmi:XMI']['uml:Model'].ownedMember[5].ownedBehavior[0].lifeline;
 
   let lifelines = [];
   xmlLifelines.forEach(l => {
@@ -58,7 +63,7 @@ function extractLifelines(result) {
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
 function extractFragments(result) {
-  let xmlFragments = result['xmi:XMI']['uml:Model'].ownedMember[6].ownedBehavior[0].fragment;
+  let xmlFragments = result['xmi:XMI']['uml:Model'].ownedMember[5].ownedBehavior[0].fragment;
 
   let frags = {};
   xmlFragments.forEach(f => {
@@ -83,7 +88,10 @@ function lookupEventTarget(targetId) {
   if (targetId in fragments) {
     let target = fragments[targetId].covered;
     let lifeline = lifelines.find(l => l.id == target);
-
+    if(!lifeline) {
+      console.log("One of your diagrams has hidden lifelines, delete them!")
+      return "Lifeline not found"
+    }
     console.log('looking up lifeline ' + target + ':' + lifeline );
 
     return lifeline.name;
@@ -101,11 +109,11 @@ function lookupEventTarget(targetId) {
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
 function extractMessages(result) {
-  let xmlMessages = result['xmi:XMI']['uml:Model'].ownedMember[6].ownedBehavior[0].message;
+  let xmlMessages = result['xmi:XMI']['uml:Model'].ownedMember[5].ownedBehavior[0].message;
 
   let ms = [];
   xmlMessages.forEach(m => {
-    //  console.log(m);
+      console.log(m);
     // start with the properties that every message has
     let msg = {
       text: m['@_name'], // Is this actually always set?
