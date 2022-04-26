@@ -14,7 +14,10 @@ var lifelines = extractLifelines(project);
 var fragments = extractFragments(project);
 var messages = extractMessages(project);
 
-var mermaid = generateMermaid(messages);
+var diagrams = extractDiagrams(project)
+
+var mermaid = generateMermaid(diagrams, messages);
+
 
 // loadXml loads and parses an xmi formatted serialization of a sequence
 // diagram.
@@ -34,12 +37,72 @@ function loadXml() {
   return result;
 }
 
+// Extract diagrams finds all of the diagrams in the uml and
+// returns them in a consise, ordered JSON array
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+function extractDiagrams(result) {
+  var  xmiDiagrams = result['xmi:XMI']['uml:Diagram'];
+
+  let diagrams = [];
+  xmiDiagrams.forEach(d => {
+    //console.log(d)
+    var xmiElements = d['uml:Diagram.element']['uml:DiagramElement']
+    let elements = [];
+    xmiElements.forEach(e => {
+      let elem = {
+        geometry: e['@_geometry'],
+        preferredShapeType: e['@_preferredShapeType'],
+        subject: e['@_subject'],
+        xmiId: e['@_xmi:id'],
+        fromDiagramElement: e['@_fromDiagramElement'],
+        toDiagramElement: e['@_toDiagramElement']
+      }
+      elements.push(elem)
+    })
+    let dgm = {
+      diagramType: d['@_diagramType'],
+      documentation: d['@_documentation'],
+      name: d['@_name'],
+      toolName: d['@_toolName'],
+      xmiId: d['@_xmi:id'],
+      diagramElements: elements
+
+    }
+    diagrams.push(dgm);
+  })
+
+  //console.log(diagrams)
+  return diagrams;
+}
+
+// find collaborators owned member finds the index of the
+// ownedMember array that has type uml:Collaboration
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+function findCollaborationOwnedMember(umlModel) {
+  var index = 0;
+  
+  let ownedMemberArr = [];
+  ownedMemberArr = umlModel['ownedMember']
+
+  ownedMemberArr.forEach(member => {
+    console.log(member)
+    if(member['@_xmi:type'] == 'uml:Collaboration')
+      index = ownedMemberArr.indexOf(member)    
+  })
+
+  return index;
+}
+
 // Extract lifelines finds all of the lifelines in the diagram and
 // returns them in a concise, ordered JSON array
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
 function extractLifelines(result) {
-  var xmlLifelines = result['xmi:XMI']['uml:Model'].ownedMember[5].ownedBehavior[0].lifeline;
+  var umlModel = result['xmi:XMI']['uml:Model'];
+  var collaboratorsIndex = findCollaborationOwnedMember(umlModel);
+  var xmlLifelines = result['xmi:XMI']['uml:Model'].ownedMember[collaboratorsIndex].ownedBehavior[0].lifeline;
 
   let lifelines = [];
   xmlLifelines.forEach(l => {
@@ -63,7 +126,9 @@ function extractLifelines(result) {
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
 function extractFragments(result) {
-  let xmlFragments = result['xmi:XMI']['uml:Model'].ownedMember[5].ownedBehavior[0].fragment;
+  var umlModel = result['xmi:XMI']['uml:Model'];
+  var collaboratorsIndex = findCollaborationOwnedMember(umlModel);
+  let xmlFragments = result['xmi:XMI']['uml:Model'].ownedMember[collaboratorsIndex].ownedBehavior[0].fragment;
 
   let frags = {};
   xmlFragments.forEach(f => {
@@ -102,6 +167,39 @@ function lookupEventTarget(targetId) {
   }
 }
 
+function extractOwnedOperationsMsg(msg, umlModel) {
+  let msgText = '';
+  umlModel.ownedMember.forEach(member => {
+    var ownedOp = member.ownedOperation;
+
+    //console.log(ownedOp);
+    if(ownedOp) {
+      if(!ownedOp[0])
+        ownedOp = [ownedOp];
+
+      ownedOp.forEach(param => {
+        let modelTransition = {
+          'from': param['xmi:Extension']['modelTransition']['@_from'],
+          'to': param['xmi:Extension']['modelTransition']['@_to']
+        };
+        var idFrom = -1;
+        var idTo = -1;
+        if(modelTransition['from'])
+          idFrom = modelTransition['from'].indexOf(msg.id);
+        if(modelTransition['to'])
+          idTo = modelTransition['to'].indexOf(msg.id);
+        //console.log(idFrom, idTo);
+
+        if(idFrom != -1 || idTo != -1) {
+          msgText = param['@_name'];
+        }
+      })
+    }
+  })
+
+  return msgText;
+}
+
 // Extract messages finds all of the messages in the diagram and
 // returns them in a concise, ordered JSON array.
 // This includes dereferencing the send/receive targets using
@@ -109,7 +207,9 @@ function lookupEventTarget(targetId) {
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
 function extractMessages(result) {
-  let xmlMessages = result['xmi:XMI']['uml:Model'].ownedMember[5].ownedBehavior[0].message;
+  var umlModel = result['xmi:XMI']['uml:Model'];
+  var collaboratorsIndex = findCollaborationOwnedMember(umlModel);
+  let xmlMessages = result['xmi:XMI']['uml:Model'].ownedMember[collaboratorsIndex].ownedBehavior[0].message;
 
   let ms = [];
   xmlMessages.forEach(m => {
@@ -133,6 +233,11 @@ function extractMessages(result) {
       msg.toActivation = m['xmi:Extension'].toActivation['activation']['@_xmi:value'];
     }
 
+    if(!msg['text']){
+      var msgText = extractOwnedOperationsMsg(msg, umlModel)
+      msg.text = msgText
+    }
+    
     ms.push(msg);
   });
 
@@ -140,12 +245,72 @@ function extractMessages(result) {
   return ms;
 }
 
-function generateMermaid(messages) {
+function getDiagramLifelines(diagramElements) {
+  let lifelines = []
+  diagramElements.forEach(elem => {
+    if(elem['preferredShapeType'] == 'InteractionLifeLine' ||
+        elem['preferredShapeType'] == 'InteractionActor')
+        lifelines.push(elem)
+  })
+
+  return lifelines
+}
+
+function getYVal(geometry) {
+  var xAndY = String(geometry).split(';')
+  var yVal = Number(String(xAndY).split(',')[1])
+  return yVal
+}
+
+function orderDiagramMessages(diagramElements) {
+  let messages = []
+  diagramElements.forEach(elem => {
+    if(elem['preferredShapeType'] == 'Message')
+      messages.push(elem)
+  })
+
+  var numMsg = messages.length;
+  for(let i = 0; i < numMsg; i++) {
+    for(let j = 0; j < numMsg - 1; j++) {
+      if(getYVal(messages[j]['geometry']) > getYVal(messages[j + 1]['geometry'])) {
+        let tmp = messages[j];
+        messages[j] = messages[j + 1];
+        messages[j + 1] = tmp;
+      }
+    }
+  }
+
+  return messages;
+}
+
+function generateInteractionDiagramMermaid(diagram, messages) {
+  var lifeLines = getDiagramLifelines(diagram['diagramElements']);
+  var orderedMessages = orderDiagramMessages(diagram['diagramElements']);
+
+
+  //TODO: loop through the orderedMessages and generate the mermaid for each one
+
   let mer = `sequenceDiagram
-  autonumber\n`;
+              autonumber\n`;
   messages.forEach(function (m) {
     mer += `    ${m.from}->>${m.to}:${m.text}\n`
+  })
+
+  console.log(lifeLines)
+  console.log(orderedMessages)
+}
+
+function generateMermaid(diagrams, messages) {
+  
+  let mermaid = []
+  diagrams.forEach(diagram => {
+    if(diagram['diagramType'] == 'InteractionDiagram') {
+      mermaid.push(generateInteractionDiagramMermaid(diagram, messages))
+    }
+
   });
+
+  
 
   return mer;
 }
