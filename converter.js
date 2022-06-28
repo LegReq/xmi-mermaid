@@ -7,30 +7,61 @@
 
 const fs = require('fs');
 const { XMLParser } = require('fast-xml-parser');
+//TODO: this should be a config argument
+const inFileName = "test1.xml";
+const outFileName = "test.json";
+const outputFormat = "txt";
 
-project = loadXml();
-
-var lifelines = extractLifelines(project);
-var fragments = extractFragments(project);
-var messages = extractMessages(project);
-
+project = loadXml(inFileName);
 var diagrams = extractDiagrams(project)
+var mermaid = generateMermaid(inFileName, project);
 
-var mermaid = generateMermaid(diagrams, messages);
+if(outputFormat == "json")
+{
+  writeJsonOutput(mermaid, outFileName);
+}
+else if(outputFormat == "txt")
+{
+  writeTxtOutput(mermaid, inFileName);
+}
 
+// writeTxtOutput takes the convered mermaid and names array and 
+// writes each diagram to its own .txt file
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+function writeTxtOutput(mermaid, jsonTopLevel) {
+  console.log(mermaid[jsonTopLevel].length)
+  for(var i = 0; i < mermaid[jsonTopLevel].length; i++)
+  {
+    var fileName = mermaid[jsonTopLevel][i]['name'] + '.txt';
+    var data = mermaid[jsonTopLevel][i]['mermaid'];
+    console.log(fileName, data)
+    fs.writeFileSync(fileName, data);
+  }
+}
+
+  // writeJsonOutput takes the convered mermaid and names array and 
+// writes it to a .json file
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+function writeJsonOutput(mermaid, file) {
+  var jsonStr = JSON.stringify(mermaid, null, 4);
+  var fs = require('fs');
+  fs.writeFileSync(file, jsonStr);
+}
 
 // loadXml loads and parses an xmi formatted serialization of a sequence
 // diagram.
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
-function loadXml() {
+function loadXml(inFile) {
   const pOptions = {
     ignoreAttributes: false,
     attributeNamePrefix: '@_'
   };
 
   var parser = new XMLParser(pOptions);
-  var xml = fs.readFileSync('test1.xml', 'utf8');
+  var xml = fs.readFileSync(inFile, 'utf8');
   var result = parser.parse(xml);
 
   //console.log(JSON.stringify(result, null, 2));
@@ -87,7 +118,7 @@ function findCollaborationOwnedMember(umlModel) {
   ownedMemberArr = umlModel['ownedMember']
 
   ownedMemberArr.forEach(member => {
-    console.log(member)
+    //console.log(member)
     if(member['@_xmi:type'] == 'uml:Collaboration')
       index = ownedMemberArr.indexOf(member)    
   })
@@ -99,10 +130,8 @@ function findCollaborationOwnedMember(umlModel) {
 // returns them in a concise, ordered JSON array
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
-function extractLifelines(result) {
-  var umlModel = result['xmi:XMI']['uml:Model'];
-  var collaboratorsIndex = findCollaborationOwnedMember(umlModel);
-  var xmlLifelines = result['xmi:XMI']['uml:Model'].ownedMember[collaboratorsIndex].ownedBehavior[0].lifeline;
+function extractLifelines(umlCollaborators, ownedBehaviorIndex) {
+  let xmlLifelines = umlCollaborators.ownedBehavior[ownedBehaviorIndex].lifeline;
 
   let lifelines = [];
   xmlLifelines.forEach(l => {
@@ -125,10 +154,8 @@ function extractLifelines(result) {
 // is associated with the send/receive properties of a message
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
-function extractFragments(result) {
-  var umlModel = result['xmi:XMI']['uml:Model'];
-  var collaboratorsIndex = findCollaborationOwnedMember(umlModel);
-  let xmlFragments = result['xmi:XMI']['uml:Model'].ownedMember[collaboratorsIndex].ownedBehavior[0].fragment;
+function extractFragments(umlCollaborators, ownedBehaviorIndex) {
+  let xmlFragments = umlCollaborators.ownedBehavior[ownedBehaviorIndex].fragment;
 
   let frags = {};
   xmlFragments.forEach(f => {
@@ -149,7 +176,7 @@ function extractFragments(result) {
 // of that target.
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
-function lookupEventTarget(targetId) {
+function lookupEventTarget(targetId, fragments, lifelines) {
   if (targetId in fragments) {
     let target = fragments[targetId].covered;
     let lifeline = lifelines.find(l => l.id == target);
@@ -167,6 +194,10 @@ function lookupEventTarget(targetId) {
   }
 }
 
+// extractOwnedOperationsMsg takes a msg that has an owned
+// operation and find the actual msgText
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
 function extractOwnedOperationsMsg(msg, umlModel) {
   let msgText = '';
   umlModel.ownedMember.forEach(member => {
@@ -200,16 +231,32 @@ function extractOwnedOperationsMsg(msg, umlModel) {
   return msgText;
 }
 
-// Extract messages finds all of the messages in the diagram and
+// findOwnedBehaviorIndex finds the index in the ownedBehavior[]
+// of the diagram with the specified diagName
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+function findOwndedBehaviorIndex(umlCollaborators, diagName) {
+  var index = -1;
+
+  let ownedBehavior = [];
+  ownedBehavior = umlCollaborators['ownedBehavior'];
+
+  ownedBehavior.forEach(behav => {
+    if(behav['@_name'] == diagName)
+      index = ownedBehavior.indexOf(behav)
+  })
+  return index;
+}
+
+// Extract messages finds all of the messages in the specified diagram and
 // returns them in a concise, ordered JSON array.
 // This includes dereferencing the send/receive targets using
 // the fragments variable.
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
-function extractMessages(result) {
-  var umlModel = result['xmi:XMI']['uml:Model'];
-  var collaboratorsIndex = findCollaborationOwnedMember(umlModel);
-  let xmlMessages = result['xmi:XMI']['uml:Model'].ownedMember[collaboratorsIndex].ownedBehavior[0].message;
+function extractMessages(umlCollaborators,  umlModel, ownedBehaviorIndex, fragments, lifelines) {
+
+  let xmlMessages = umlCollaborators.ownedBehavior[ownedBehaviorIndex].message;
 
   let ms = [];
   xmlMessages.forEach(m => {
@@ -217,8 +264,8 @@ function extractMessages(result) {
     // start with the properties that every message has
     let msg = {
       text: m['@_name'], // Is this actually always set?
-      from: lookupEventTarget(m['@_sendEvent']),
-      to: lookupEventTarget(m['@_receiveEvent']),
+      from: lookupEventTarget(m['@_sendEvent'], fragments, lifelines),
+      to: lookupEventTarget(m['@_receiveEvent'], fragments, lifelines),
       id: m['@_xmi:id'],
       async: m['xmi:Extension'].asynshronous['@_xmi:value'], // Is this actually always set?
       type: m['@_xmi:type'],
@@ -283,42 +330,80 @@ function orderDiagramMessages(diagramElements) {
   return messages;
 }
 
+function retrieveMessageFromDiagramMessage(orderedDiagramMessages, messages) {
+  let ordered = [];
+  orderedDiagramMessages.forEach(msg => {
+    var subject = msg['subject']
+
+    messages.forEach(m => {
+      var id = m['id']
+      if(subject == id)
+        ordered.push(m)
+    })
+  });
+
+  return ordered
+}
+
 function generateInteractionDiagramMermaid(diagram, messages) {
-  var lifeLines = getDiagramLifelines(diagram['diagramElements']);
-  var orderedMessages = orderDiagramMessages(diagram['diagramElements']);
+  var orderedDiagramMessages = orderDiagramMessages(diagram['diagramElements']);
+  var orderedMessages = retrieveMessageFromDiagramMessage(orderedDiagramMessages, messages);
 
 
   //TODO: loop through the orderedMessages and generate the mermaid for each one
-
+  //TODO: inject number into before the m.text with a counter and remove autonumber from mer = ;; THIS SHOULD BE A CONFIG
   let mer = `sequenceDiagram
               autonumber\n`;
-  messages.forEach(function (m) {
+  orderedMessages.forEach(function (m) {
     mer += `    ${m.from}->>${m.to}:${m.text}\n`
   })
 
-  console.log(lifeLines)
-  console.log(orderedMessages)
+  return mer;
 }
 
-function generateMermaid(diagrams, messages) {
+function generateJsonOutput(inFile, diagNames, mermaid) {
+  var json = {[inFile]:[]};
+
+  for(var i = 0; i < diagNames.length; i++) {
+    var curJson = {
+      "name" : diagNames[i],
+      "mermaid" : mermaid[i]
+    };
+    json[inFile].push(curJson);
+  }
+
+  return json;
+}
+
+function generateMermaid(inFile, project) {
   
-  let mermaid = []
+  let mermaid = [];
+  let diagNames = [];
   diagrams.forEach(diagram => {
     if(diagram['diagramType'] == 'InteractionDiagram') {
-      mermaid.push(generateInteractionDiagramMermaid(diagram, messages))
+      var diagName = diagram['name']
+      var umlModel = project['xmi:XMI']['uml:Model'];
+      var collaboratorsIndex = findCollaborationOwnedMember(umlModel);
+      var umlCollaborators = project['xmi:XMI']['uml:Model'].ownedMember[collaboratorsIndex];
+      
+      var ownedBehaviorIndex = findOwndedBehaviorIndex(umlCollaborators, diagName);
+
+      var fragments = extractFragments(umlCollaborators, ownedBehaviorIndex);
+      var lifelines = extractLifelines(umlCollaborators, ownedBehaviorIndex);
+      var messages = extractMessages(umlCollaborators, umlModel, ownedBehaviorIndex, fragments, lifelines);
+      
+      diagNames.push(diagName);
+      mermaid.push(generateInteractionDiagramMermaid(diagram, messages));
     }
 
   });
 
-  
+  var json = generateJsonOutput(inFile, diagNames, mermaid);
 
-  return mer;
+  return json;
 }
 
 
 //console.log(lifelines);
 //console.log(xmlFragments);
-
-console.log(messages);
-console.log(mermaid);
 
