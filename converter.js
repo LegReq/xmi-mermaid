@@ -8,7 +8,7 @@
 const fs = require('fs');
 const { XMLParser } = require('fast-xml-parser');
 //TODO: this should be a config argument
-const inFileName = "test1.xml";
+const inFileName = "aug_23.xml";
 const outFileName = "test.json";
 const outputFormat = "txt";
 
@@ -30,12 +30,13 @@ else if(outputFormat == "txt")
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
 function writeTxtOutput(mermaid, jsonTopLevel) {
-  console.log(mermaid[jsonTopLevel].length)
+  //console.log(mermaid[jsonTopLevel].length)
   for(var i = 0; i < mermaid[jsonTopLevel].length; i++)
   {
     var fileName = mermaid[jsonTopLevel][i]['name'] + '.txt';
+    mermaid[jsonTopLevel][i]['mermaid'] = mermaid[jsonTopLevel][i]['mermaid'].replace(/&#10;/g, '<br/>');
     var data = mermaid[jsonTopLevel][i]['mermaid'];
-    console.log(fileName, data)
+    //console.log(fileName, data)
     fs.writeFileSync(fileName, data);
   }
 }
@@ -260,7 +261,7 @@ function extractMessages(umlCollaborators,  umlModel, ownedBehaviorIndex, fragme
 
   let ms = [];
   xmlMessages.forEach(m => {
-      console.log(m);
+      //console.log(m);
     // start with the properties that every message has
     let msg = {
       text: m['@_name'], // Is this actually always set?
